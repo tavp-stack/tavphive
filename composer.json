@@ -1,11 +1,32 @@
-{
-    "name": "tavp/tavphive",
-    "description": "TAVPhive — billing & subscription SaaS for TAVP (Spark equivalent).",
-    "type": "tavpkit-module",
-    "license": "MIT",
-    "require": { "php": ">=8.1" },
-    "require-dev": { "phpunit/phpunit": "^10.0" },
-    "autoload": { "psr-4": { "Tavp\\Hive\\": "src/" } },
-    "autoload-dev": { "psr-4": { "Tavp\\Hive\\Tests\\": "tests/" } },
-    "config": { "sort-packages": true, "allow-plugins": {} }
+﻿{
+    "name":  "tavp/tavphive",
+    "description":  "TAVPhive â€” billing \u0026 subscription SaaS for TAVP (Spark equivalent).",
+    "type":  "tavpkit-module",
+    "license":  "MIT",
+    "require":  {
+                    "php":  "\u003e=8.1"
+                },
+    "require-dev":  {
+                        "phpunit/phpunit":  "^10.0"
+                    },
+    "autoload":  {
+                     "psr-4":  {
+                                   "Tavp\\Hive\\":  "src/"
+                               }
+                 },
+    "autoload-dev":  {
+                         "psr-4":  {
+                                       "Tavp\\Hive\\Tests\\":  "tests/"
+                                   }
+                     },
+    "config":  {
+                   "sort-packages":  true,
+                   "allow-plugins":  {
+
+                                     }
+               },
+    "support":  {
+                    "issues":  "https://github.com/tavp-stack/tavphive/issues",
+                    "source":  "https://github.com/tavp-stack/tavphive"
+                }
 }
