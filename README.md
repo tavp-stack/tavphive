@@ -25,8 +25,8 @@ Module **billing SaaS** untuk TAVP. Buat yang mau bikin produk berlangganan.
 
 ## Requirements
 
-- PHP 8.1+
-- Phalcon 5.x
+- PHP 8.3+
+- Phalcon 5.16+
 - tavp-core
 
 ## Install
