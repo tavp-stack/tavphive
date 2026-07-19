@@ -42,7 +42,7 @@ Session pertama untuk TAVPhive billing module. Implementasi MayarGateway (Indone
 ### Status: ✅ Selesai
 
 ### Catatan Penting
-- Token Gitea `REDACTED-GITEA-TOKEN` returning 401 — use old token `REDACTED-GITEA-TOKEN`
+- Token Gitea _(disimpan lokal di `.opencode/CONTEXT.md`, TIDAK di repo)_ returning 401 — gunakan token lokal
 - .opencode/ is Gitea only — NEVER push to GitHub
 - RevenueSplit is now in tavp-marketplace, not tavphive
 
