@@ -21,3 +21,6 @@ Thumbs.db
 # Build
 node_modules/
 dist/
+
+# AI Context (Gitea only)
+.opencode/
