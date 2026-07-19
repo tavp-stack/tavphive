@@ -15,6 +15,7 @@ class BillingManager
     {
         foreach ($config['gateways'] ?? [] as $name => $gatewayConfig) {
             $this->gateways[$name] = match ($gatewayConfig['driver'] ?? 'stripe') {
+                'mayar' => new MayarGateway($gatewayConfig),
                 'stripe' => new StripeGateway($gatewayConfig),
                 'midtrans' => new MidtransGateway($gatewayConfig),
                 'xendit' => new XenditGateway($gatewayConfig),
