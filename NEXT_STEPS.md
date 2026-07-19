@@ -102,4 +102,4 @@
 - **Host:** git.glotama.com
 - **User:** jtdoank
 - **Token:** REDACTED-GITEA-TOKEN (old, works)
-- **Token:** REDACTED-GITEA-TOKEN (new, 401 error)
+- **Token:** _(disimpan lokal di `.opencode/CONTEXT.md`, TIDAK di repo)_
