@@ -101,5 +101,5 @@
 ## Gitea API Access
 - **Host:** git.glotama.com
 - **User:** jtdoank
-- **Token:** REDACTED-GITEA-TOKEN (old, works)
+- **Token:** _(disimpan lokal, TIDAK di repo)_
 - **Token:** _(disimpan lokal di `.opencode/CONTEXT.md`, TIDAK di repo)_
