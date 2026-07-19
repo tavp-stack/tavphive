@@ -7,6 +7,9 @@ composer.phar
 .env.backup
 .php-cs-fixer.cache
 
+# Test cache
+.phpunit.cache/
+
 # Logs
 *.log
 npm-debug.log
